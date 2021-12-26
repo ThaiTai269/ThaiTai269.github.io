@@ -94,7 +94,7 @@ html{
     z-index: 1;
     animation: growth linear 0.1s;
 }
-
+/* end modal */
 /* Button Style */
 .btn{
     min-width: 124px;
@@ -130,6 +130,7 @@ html{
     font-size: 12px;
     padding: 0 8px;
 }
+/* end button */
 /* select */
 .select-input{
     min-width: 200px;
@@ -163,6 +164,7 @@ html{
     padding:8px 16px;
     list-style: none;
     display: none;
+    z-index: 1;
 }
 .select-input__item{
     
@@ -181,3 +183,39 @@ html{
 .select-input:hover .select-input__list{
     display: block;
 }
+/* end select */
+/* pagiantion */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.pagination-item{
+    margin: 0 8px;
+}
+.pagination-item__link{
+    --height:30px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #939393;
+    min-width: 40px;
+    height: var(--height);
+    display: block;
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.pagination-item__icon{
+
+}
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.pagination-item--active .pagination-item__link:hover{
+    background-color: #ed5c3f;
+}
+/* end pagiation */
