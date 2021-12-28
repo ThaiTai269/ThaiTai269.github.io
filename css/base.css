@@ -9,6 +9,7 @@
     --header-height:120px;
     --navbar-height:56px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height) - 6px);
+    --header-sort-bar-height: 46px;
 }
 
 *{

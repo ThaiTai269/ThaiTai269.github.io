@@ -433,6 +433,11 @@
         width: 644px;
     }
 }
+@media (max-width: 739px) {
+    .wide {
+        width: 100%;
+    }
+}
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
@@ -589,3 +594,4 @@
         margin-left: 91.66667%;
     }
 }
+
